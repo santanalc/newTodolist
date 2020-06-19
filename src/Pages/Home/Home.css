@@ -1,0 +1,30 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff008f;
+  height: 100vh;
+  width: 100vw;
+}
+.list-check {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.risk {
+  text-decoration: line-through;
+}
+.check {
+  position: relative;
+  margin: 10px;
+}
+
+.body > .panel {
+  height: 90vh;
+  width: 90vw;
+  background-color: #3c414a;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
