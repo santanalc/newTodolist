@@ -4,6 +4,8 @@ import Input from "../../Components/Input/Input";
 function Home() {
   const [todo, setTodo] = useState<string[]>([]);
   const [checkedTodo, setCheckedTodo] = useState<number[]>([]);
+
+  console.log("OI");
   return (
     <div className={"body"}>
       <div className={"panel"}>
